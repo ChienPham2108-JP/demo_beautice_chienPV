@@ -652,7 +652,7 @@ input::-ms-input-placeholder { /* Microsoft Edge */
   margin-right: -4rem;
   margin-top: 6.966rem;
   padding-top: 22.534rem;
-  background-image: url('/assets/img/footer-background.png');
+  background-image: url('../img/footer-background.png');
   background-size: cover;
   background-position: center top;
 }
