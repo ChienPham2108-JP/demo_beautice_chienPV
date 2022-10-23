@@ -5,18 +5,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Beautice - Clinic & Beauty Consultant</title>
-  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="stylesheet" href="">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,500;1,600&display=swap" rel="stylesheet">
-</head>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  </head>
 <body>
   <main class="main">
     <!-- Start Header -->
     <header class="header">
       <!-- Header on PC -->
       <div class="site-header">
-        <a href="/" class="main-logo"><img src="./assets/img/main-logo.png" width="263.83" height="63" alt="logo"></a>
+        <a href="/" class="main-logo">
+          <img src="./assets/img/main-logo.png" width="263.83" height="63" alt="logo" />
+        </a>
         <nav class="main-menu">
           <ul class="menu">
             <li class="menu__item home">
@@ -24,19 +27,19 @@
               <span class="plus">+</span>
             </li>
             <li class="menu__item about">
-              <a href="#" class="menu__link">About</a>
+              <a href="" class="menu__link">About</a>
             </li>
             <li class="menu__item service">
-              <a href="#" class="menu__link">Service</a>
+              <a href="" class="menu__link">Service</a>
             </li>
             <li class="menu__item gallery">
-              <a href="#" class="menu__link">Gallery</a>
+              <a href="" class="menu__link">Gallery</a>
             </li>
             <li class="menu__item blog">
-              <a href="#" class="menu__link">Blog</a>
+              <a href="" class="menu__link">Blog</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link btn contact-btn">Contact</a>
+              <a href="" class="menu__link btn contact-btn">Contact</a>
             </li>
           </ul>
         </nav>
@@ -45,7 +48,7 @@
       <!-- Header on Mobile -->
       <div class="site-header-onmobi">
         <a href="/" class="main-logo"><img src="./assets/img/main-logo.png" width="263.83" height="63" alt="logo"></a>
-        <div class="menu-icon">
+        <div class="mobile-menu-btn">
           <svg width="28" height="28" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
             <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
           </svg>
@@ -53,9 +56,34 @@
       </div>
     </header>
     <!-- End Header -->
-
+    
     <!-- Start Content -->
     <div class="content">
+      <div class="mobile-menu-modal">
+        <nav class="mobile-main-menu">
+          <a href="/" class="main-logo"><img src="./assets/img/main-logo.png" width="263.83" height="63" alt="logo"></a>
+          <ul class="menu">
+            <li class="menu__item">
+              <a href="" class="menu__link active">Home +</a>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">About</a>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">Service</a>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">Gallery</a>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">Blog</a>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
       <div class="main-slider">
         <div class="upper-slider">
           <section class="wrap-text">
@@ -84,20 +112,26 @@
           <div class="services-desc">Porta rhoncus orci condimentum vitae lobortis eu dignissim non massa. Non parturient amet, feugiat tellus sagittis, scelerisque eget nulla turpis.</div>
         </div>
         <div class="services-bottom">
-          <div class="services-card">
-            <img class="services-card__img" width="166" height="166" src="./assets/img/card1.png" alt="Beauty consultation">
-            <div class="services-card__heading">Beauty consultation</div>
-            <div class="services-card__desc">Non parturient amet, feugiat tellus sagittis, scelerisque eget nulla turpis.</div>
+          <div class="wrap-card">
+            <div class="services-card">
+              <img class="services-card__img" width="166" height="166" src="./assets/img/card1.png" alt="Beauty consultation">
+              <div class="services-card__heading">Beauty consultation</div>
+              <div class="services-card__desc">Non parturient amet, feugiat tellus sagittis, scelerisque eget nulla turpis.</div>
+            </div>
           </div>
-          <div class="services-card">
-            <img class="services-card__img" width="166" height="166" src="./assets/img/card2.png" alt="Beauty consultation">
-            <div class="services-card__heading">Beauty consultation</div>
-            <div class="services-card__desc">Non parturient amet, feugiat tellus sagittis, scelerisque eget nulla turpis.</div>
+          <div class="wrap-card">
+            <div class="services-card">
+              <img class="services-card__img" width="166" height="166" src="./assets/img/card2.png" alt="Beauty consultation">
+              <div class="services-card__heading">Beauty consultation</div>
+              <div class="services-card__desc">Non parturient amet, feugiat tellus sagittis, scelerisque eget nulla turpis.</div>
+            </div>
           </div>
-          <div class="services-card">
-            <img class="services-card__img" width="166" height="166" src="./assets/img/card3.png" alt="Beauty consultation">
-            <div class="services-card__heading">Beauty consultation</div>
-            <div class="services-card__desc">Non parturient amet, feugiat tellus sagittis, scelerisque eget nulla turpis.</div>
+          <div class="wrap-card">
+            <div class="services-card">
+              <img class="services-card__img" width="166" height="166" src="./assets/img/card3.png" alt="Beauty consultation">
+              <div class="services-card__heading">Beauty consultation</div>
+              <div class="services-card__desc">Non parturient amet, feugiat tellus sagittis, scelerisque eget nulla turpis.</div>
+            </div>
           </div>
         </div>
       </div>
@@ -133,56 +167,101 @@
           <div class="team__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam.</div>
         </header>
         <div class="team-bottom">
-          <div class="staff-card">
-            <img src="./assets/img/avatar1.png" alt="" width="146" height="146" class="staff-card__img">
-            <div class="staff-card__position">Surgeon</div>
-            <div class="staff-card__name">Briyan Nevalli</div>
-            <div class="staff-card__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit</div>
-            <div class="staff-card__contacts">
-              <a href="" class="staff-card__social">
-                <img src="./assets/img/twitter.png" alt="Socials">
-              </a>
-              <a href="" class="staff-card__social">
-                <img src="./assets/img/facebook.png" alt="Socials">
-              </a>
-              <a href="" class="staff-card__social">
-                <img src="./assets/img/instagram.png" alt="Socials">
-              </a>
+          <div class="staff-wrap">
+            <div class="staff-card">
+              <img src="./assets/img/avatar1.png" alt="" width="146" height="146" class="staff-card__img">
+              <div class="staff-card__position">Surgeon</div>
+              <div class="staff-card__name">Briyan Nevalli</div>
+              <div class="staff-card__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit</div>
+              <div class="staff-card__contacts">
+                <a href="" class="staff-card__social">
+                  <img src="./assets/img/twitter.png" alt="Socials">
+                </a>
+                <a href="" class="staff-card__social">
+                  <img src="./assets/img/facebook.png" alt="Socials">
+                </a>
+                <a href="" class="staff-card__social">
+                  <img src="./assets/img/instagram.png" alt="Socials">
+                </a>
+              </div>
             </div>
           </div>
-          <div class="staff-card center">
-            <img src="./assets/img/avatar2.png" alt="" width="146" height="146" class="staff-card__img">
-            <div class="staff-card__position">Dermatologist</div>
-            <div class="staff-card__name">Bella sebastian</div>
-            <div class="staff-card__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit</div>
-            <div class="staff-card__contacts">
-              <a href="" class="staff-card__social">
-                <img src="./assets/img/twitter.png" alt="Socials">
-              </a>
-              <a href="" class="staff-card__social">
-                <img src="./assets/img/facebook.png" alt="Socials">
-              </a>
-              <a href="" class="staff-card__social">
-                <img src="./assets/img/instagram.png" alt="Socials">
-              </a>
+          <div class="staff-wrap center">
+            <div class="staff-card">
+              <img src="./assets/img/avatar2.png" alt="" width="146" height="146" class="staff-card__img">
+              <div class="staff-card__position">Dermatologist</div>
+              <div class="staff-card__name">Bella sebastian</div>
+              <div class="staff-card__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit</div>
+              <div class="staff-card__contacts">
+                <a href="" class="staff-card__social">
+                  <img src="./assets/img/twitter.png" alt="Socials">
+                </a>
+                <a href="" class="staff-card__social">
+                  <img src="./assets/img/facebook.png" alt="Socials">
+                </a>
+                <a href="" class="staff-card__social">
+                  <img src="./assets/img/instagram.png" alt="Socials">
+                </a>
+              </div>
             </div>
           </div>
-          <div class="staff-card">
-            <img src="./assets/img/avatar3.png" alt="" width="146" height="146" class="staff-card__img">
-            <div class="staff-card__position">Stylist expert</div>
-            <div class="staff-card__name">Lilly Adams</div>
-            <div class="staff-card__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit</div>
-            <div class="staff-card__contacts">
-              <a href="" class="staff-card__social">
-                <img src="./assets/img/twitter.png" alt="Socials">
-              </a>
-              <a href="" class="staff-card__social">
-                <img src="./assets/img/facebook.png" alt="Socials">
-              </a>
-              <a href="" class="staff-card__social">
-                <img src="./assets/img/instagram.png" alt="Socials">
-              </a>
+          <div class="staff-wrap">
+            <div class="staff-card">
+              <img src="./assets/img/avatar3.png" alt="" width="146" height="146" class="staff-card__img">
+              <div class="staff-card__position">Stylist expert</div>
+              <div class="staff-card__name">Lilly Adams</div>
+              <div class="staff-card__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit</div>
+              <div class="staff-card__contacts">
+                <a href="" class="staff-card__social">
+                  <img src="./assets/img/twitter.png" alt="Socials">
+                </a>
+                <a href="" class="staff-card__social">
+                  <img src="./assets/img/facebook.png" alt="Socials">
+                </a>
+                <a href="" class="staff-card__social">
+                  <img src="./assets/img/instagram.png" alt="Socials">
+                </a>
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="team-modal">
+        <div class="team-modal__content">
+          <button type="button" class="team-modal__close">✕</button>
+          <div class="team-modal__body">
+            <div class="team-modal__img">
+              <img src="./assets/img/avatar2.png" alt="" width="146" height="146">
+            </div>
+            <div class="team-modal__info">
+              <h2 class="name" >Bella Sebastian</h2>
+              <div class="position">
+                Dermatologist
+              </div>
+              <div class="desc">A small river named Duden flows by their place and supplies it with the necessary</div>
+              <div class="team-modal__list">
+                <li>
+                  <strong>Phone:</strong>
+                  <a href="tel:%2B1+%28859%29+254-6589">+1 (859) 254-6589</a>
+                </li>
+                <li>
+                  <strong>Email:</strong>
+                  <a href="mailto:info@example.com">info@example.com</a>
+                </li>
+              </div>
+              <div class="staff-card__contacts">
+                <a href="" class="staff-card__social">
+                  <img src="./assets/img/twitter.png" alt="Socials">
+                </a>
+                <a href="" class="staff-card__social">
+                  <img src="./assets/img/facebook.png" alt="Socials">
+                </a>
+                <a href="" class="staff-card__social">
+                  <img src="./assets/img/instagram.png" alt="Socials">
+                </a>
+              </div>
+            </div> 
           </div>
         </div>
       </div>
@@ -246,19 +325,19 @@
         </div>
         <div class="bottom-footer">
           <div class="social-bar">
-            <a href="">
+            <a href="/">
               <img src="./assets/img/facebook-f.png" width="25" height="27.84" alt="facebook">
             </a>
-            <a href="">
+            <a href="/">
               <img src="./assets/img/twitter-f.png" width="25" height="27.84" alt="twitter">
             </a>
-            <a href="">
+            <a href="/">
               <img src="./assets/img/linkedin-in.png" width="25" height="27.84" alt="linkedin-in">
             </a>
-            <a href="">
+            <a href="/">
               <img src="./assets/img/youtube-f.png" width="25" height="27.84" alt="youtube">
             </a>
-            <a href="">
+            <a href="/">
               <img src="./assets/img/instagram-f.png" width="25" height="27.84" alt="instagram">
             </a>
           </div>
@@ -271,5 +350,60 @@
     </footer>
     <!-- End Footer -->
   </main>
+
+  <script>
+    const headerElement = document.querySelector('.header')
+    const goToTopElement = document.querySelector('.go-to-top')
+    const mobileMenuBtn = document.querySelector('.mobile-menu-btn')
+    const mobileMenuModal = document.querySelector('.mobile-menu-modal')
+    const teamModal = document.querySelector('.team-modal')
+    const memberImgs = document.querySelectorAll('.staff-card__img')
+    const memberNames = document.querySelectorAll('.staff-card__name')
+    const teamModalClose = document.querySelector('.team-modal__close')
+
+    memberImgs.forEach((img) => { 
+      handleVisibleTeamModal(img)
+    })
+
+    memberNames.forEach((name) => {
+      handleVisibleTeamModal(name)
+    })
+
+    teamModalClose.onclick = () => {
+      teamModal.classList.toggle('active')
+    }
+
+    teamModal.onclick = (e) => {
+      if (e.target.closest('.team-modal__content')) return
+      teamModal.classList.remove('active')
+    }
+
+    mobileMenuBtn.onclick = () => {
+      mobileMenuModal.classList.toggle('active')
+    }
+
+    mobileMenuModal.onclick = (e) => {
+      if (e.target.closest('.mobile-main-menu')) return
+      mobileMenuModal.classList.remove('active')
+    }
+
+    window.addEventListener('scroll', () => {
+      headerElement.classList.toggle("nav-scrolled", window.scrollY > 0)
+      goToTopElement.classList.toggle("visible", window.scrollY > 500)
+    })
+
+    goToTopElement.onclick = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      })
+    }
+
+    function handleVisibleTeamModal(element) {
+      element.onclick = () => {
+        teamModal.classList.toggle('active')
+      }
+    }
+  </script>
 </body>
 </html>
